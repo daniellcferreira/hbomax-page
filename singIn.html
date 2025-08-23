@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/singIn.css" />
+    <title>Entrar | HBO Max</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <a href="index.html" class="menu__logo">
+        <img
+          src="assets/images/hbo-logo.svg"
+          alt="Logotipo HBO Max"
+          class="menu__logo-image"
+        />
+      </a>
+
+      <div>
+        <a href="singIn.html" class="menu__item">Entrar</a>
+        <a href="#subscription" class="menu__item menu__item--button button"
+          >Assine Agora</a
+        >
+      </div>
+    </nav>
+
+    <main class="content">
+      <form class="login container">
+        <h1 class="login__title">Entrar</h1>
+
+        <label class="login__label">Você tem uma conta na HBO Max?</label>
+
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="login__field"
+          placeholder="Endereço de e-mail"
+        />
+
+        <input
+          class="login__field"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Senha"
+          minlength="8"
+        />
+
+        <div class="login__actions">
+          <button type="submit" class="button button--gradient">Entrar</button>
+          <a href="#" class="login__link">Esqueceu sua senha?</a>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer container">
+      <div>
+        <a href="https://www.hbomax.com/br/pt/sitemap" class="footer__link"
+          >Agora na HBO Max</a
+        >
+
+        <a href="https://www.hbomax.com/br/pt/comming-soon" class="footer__link"
+          >Em breve</a
+        >
+
+        <a href="https://www.hbomax.com/br/pt/feature" class="footer__link"
+          >Filmes em destaque</a
+        >
+
+        <a href="https://www.hbomax.com/br/pt/series" class="footer__link"
+          >Séries em destaque</a
+        >
+
+        <a href="https://help.hbomax.com/br/" class="footer__link">Ajuda</a>
+      </div>
+
+      <p class="text--small footer__legal">
+        2025 WarnerMedia Direct Latin America, LLC. Todos os direitos
+        reservados. Hbo MAx é usado sob lincença.
+      </p>
+
+      <div class="footer__social">
+        <a
+          href="https://www.facebook.com/hbomaxbrasil"
+          class="footer__social-link"
+        >
+          <img src="assets/images/fb_0.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://www.youtube.com/hbomaxbrasil"
+          class="footer__social-link"
+        >
+          <img src="assets/images/youtube_0.png" alt="Youtube" />
+        </a>
+
+        <a
+          href="https://www.instagram.com/hbomaxbrasil/"
+          class="footer__social-link"
+        >
+          <img src="assets/images/instagram_0.png" alt="Instagram" />
+        </a>
+
+        <a href="https://twitter.com/hbomaxbrasil" class="footer__social-link">
+          <img src="assets/images/twitter_0.png" alt="Twitter" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
