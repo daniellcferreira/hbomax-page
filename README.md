@@ -1,8 +1,9 @@
 # HBO Max Clone
 
-![HTML5](https://img.shields.io/badge/HTML5-Estrutura-E34F26?style=flat-square&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/CSS3-Estilização-1572B6?style=flat-square&logo=css3&logoColor=white)  
-![Responsivo](https://img.shields.io/badge/Design-Responsivo-4CAF50?style=flat-square&logo=android&logoColor=white)  
+![HTML5](https://img.shields.io/badge/HTML5-Marcação-E34F26?style=flat-square&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/CSS3-Estilização-1572B6?style=flat-square&logo=css3&logoColor=white) 
+![Responsivo](https://img.shields.io/badge/Responsivo-Design%20Adaptável-00C7B7?style=flat-square&logo=responsive&logoColor=white)
+
 
 ## Descrição
 Este projeto é um **clone da landing page da HBO Max**, desenvolvido com **HTML5 e CSS3** para fins de estudo.  
